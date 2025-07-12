@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.services-intro {
+  max-width: 700px;
+  margin: 40px auto 24px auto;
+  text-align: center;
+  color: #333;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  padding: 0 16px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.service-card img {
+  width: 100%;
+  max-width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.service-card h2 {
+  color: #0078d4;
+  margin: 12px 0 8px 0;
+}
+
+.service-card p {
+  color: #555;
+  font-size: 1em;
+}
+/* ...existing code... */
+
+footer {
+  background: #0078d4;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0;
+  font-size: 1.15em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 40px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
+}
+
+/*
